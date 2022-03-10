@@ -51,30 +51,7 @@ class Main {
 					}
 				}
 			}
-			//bingo 출력문 보완 필요 
-			// playGame:
-			// for(i=0;i<SIZE;i++){
-			// 	for(j=0;j<SIZE;j++){
-			// 		if(bingo[i][j]==0) oCount++;	
-			// 	}
-			// 	if(oCount==SIZE){
-			// 		++lineCount;
-			// 		break playGame;
-			// 	}
-			// 	oCount = 0;
-			// 	for(j=0;j<SIZE;j++){
-			// 		if(bingo[j][i]==0) oCount++;	
-			// 	}
-			// 	if(oCount==SIZE){
-			// 		++lineCount;
-			// 		break playGame;
-			// 	}
-			// 	oCount = 0;
-			// }//bingo출력 for문
-			// if(lineCount!=0){
-			// 	System.out.printf("%d BINGO!",lineCount);
-			// 	System.out.println();
-			// }
+		
 		}while(num!=0);
 			
   } //main 
